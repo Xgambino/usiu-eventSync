@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - USIU EventSync</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body class="bg-background min-h-screen">
+
+  <!-- Navigation Header -->
+  <header>
+    <nav class="glassmorphic border-b border-border sticky top-0 z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+
+          <!-- Logo & Site Title -->
+          <div class="flex items-center space-x-3">
+            <div>
+              <h1>USIU EventSync</h1>
+              <p>Smart Campus Events</p>
+            </div>
+          </div>
+
+          <!-- Navigation Links -->
+          <ul class="hidden md:flex items-center space-x-8">
+            <li><a href="dashboard_page.html">Dashboard</a></li>
+            <li><a href="event_categories.html">Categories</a></li>
+            <li><a href="javascript:void(0)">My Events</a></li>
+            <li><a href="javascript:void(0)">Calendar</a></li>
+          </ul>
+
+          <!-- User Profile -->
+          <div class="flex items-center space-x-4">
+            <button aria-label="Notifications"></button>
+            <div>
+              <span>JS</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+
+    <!-- Welcome Section -->
+    <section class="mb-12">
+      <header class="text-center mb-8">
+        <h2>Welcome Back, John</h2>
+        <p>Discover amazing events happening at USIU. Your next adventure is just a click away.</p>
+      </header>
+
+      <!-- Quick Stats -->
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+        <article>
+          <h3>12</h3>
+          <p>Events Attended</p>
+        </article>
+        <article>
+          <h3>3</h3>
+          <p>Upcoming Events</p>
+        </article>
+        <article>
+          <h3>8</h3>
+          <p>Clubs Joined</p>
+        </article>
+        <article>
+          <h3>45</h3>
+          <p>Points Earned</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Search and Filters -->
+    <section class="mb-8">
+      <form role="search" class="glassmorphic rounded-2xl p-6">
+        <label for="search-events" class="sr-only">Search events, clubs, or topics</label>
+        <input id="search-events" type="text" placeholder="Search events, clubs, or topics...">
+        <fieldset>
+          <legend>Filter Events</legend>
+          <button type="button">All Events</button>
+          <button type="button">Today</button>
+          <button type="button">This Week</button>
+          <button type="button">Academic</button>
+          <button type="button">Social</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <!-- Featured Events -->
+    <section class="mb-12">
+      <header class="flex items-center justify-between mb-6">
+        <h3>Featured Events</h3>
+        <a href="event_categories.html">View All →</a>
+      </header>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <article>
+          <header>
+            <time datetime="2025-11-15T14:00">Nov 15, 2025 • 2:00 PM</time>
+            <h4>Tech Innovation Summit 2025</h4>
+          </header>
+          <p>Join industry leaders for cutting-edge discussions on AI, blockchain, and the future of technology in education.</p>
+          <footer>
+            <p>Main Auditorium</p>
+            <a href="event_details_page.html">View Details</a>
+          </footer>
+        </article>
+
+        <article>
+          <header>
+            <time datetime="2025-11-18T18:00">Nov 18, 2025 • 6:00 PM</time>
+            <h4>International Cultural Festival</h4>
+          </header>
+          <p>Celebrate diversity with performances, food, and art from cultures around the world. A night of unity and celebration.</p>
+          <footer>
+            <p>Campus Grounds</p>
+            <a href="event_details_page.html">View Details</a>
+          </footer>
+        </article>
+      </div>
+    </section>
+
+    <!-- Upcoming Events Grid -->
+    <section class="mb-12">
+      <header class="flex items-center justify-between mb-6">
+        <h3>Upcoming Events</h3>
+        <span>Live Updates</span>
+      </header>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <article>
+          <header>
+            <time datetime="2025-11-14T10:00">Nov 14, 2025 • 10:00 AM</time>
+            <h4>Business Networking Breakfast</h4>
+          </header>
+          <p>Connect with industry professionals and expand your network over breakfast.</p>
+          <footer>
+            <p>45 attending</p>
+            <a href="registration_form_page.html">Register →</a>
+          </footer>
+        </article>
+
+        <article>
+          <header>
+            <time datetime="2025-11-16T14:00">Nov 16, 2025 • 2:00 PM</time>
+            <h4>Science Lab Workshop</h4>
+          </header>
+          <p>Hands-on laboratory experience with cutting-edge scientific equipment.</p>
+          <footer>
+            <p>28 attending</p>
+            <a href="registration_form_page.html">Register →</a>
+          </footer>
+        </article>
+
+        <article>
+          <header>
+            <time datetime="2025-11-20T16:00">Nov 20, 2025 • 4:00 PM</time>
+            <h4>Student Art Exhibition</h4>
+          </header>
+          <p>Showcase of creative works by talented USIU art students.</p>
+          <footer>
+            <p>67 attending</p>
+            <a href="registration_form_page.html">Register →</a>
+          </footer>
+        </article>
+      </div>
+    </section>
+
+    <!-- Recommended Events -->
+    <section class="mb-12">
+      <header class="flex items-center justify-between mb-6">
+        <h3>Recommended For You</h3>
+        <button>Customize Preferences →</button>
+      </header>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <article>
+          <header>
+            <h4>Innovation Challenge</h4>
+            <time datetime="2025-12-01">Dec 1, 2025</time>
+          </header>
+          <p>Based on your interest in technology and entrepreneurship</p>
+          <footer>
+            <a href="event_details_page.html">Learn More</a>
+          </footer>
+        </article>
+
+        <article>
+          <header>
+            <h4>Literature Society Meeting</h4>
+            <time datetime="2025-11-30">Nov 30, 2025</time>
+          </header>
+          <p>Perfect match for your academic interests</p>
+          <footer>
+            <a href="event_details_page.html">Learn More</a>
+          </footer>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="glassmorphic border-t border-border mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <section>
+        <h4>USIU EventSync</h4>
+        <p>Transforming campus life through innovative event management. Connect, discover, and engage with the USIU community like never before.</p>
+      </section>
+
+      <nav aria-label="Quick Links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="dashboard_page.html">Dashboard</a></li>
+          <li><a href="event_categories.html">Browse Events</a></li>
+          <li><a href="javascript:void(0)">My Calendar</a></li>
+          <li><a href="javascript:void(0)">Help Center</a></li>
+        </ul>
+      </nav>
+
+      <nav aria-label="Support Links">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="javascript:void(0)">Contact Us</a></li>
+          <li><a href="javascript:void(0)">FAQ</a></li>
+          <li><a href="javascript:void(0)">Privacy Policy</a></li>
+          <li><a href="javascript:void(0)">Terms of Service</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <p>© 2025 USIU EventSync. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
