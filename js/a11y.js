@@ -14,7 +14,7 @@ async function loadEvents() {
     const data = await response.json();
 
     // Only show 2 sample events
-    const events = data.slice(0, 2);
+    const events = data.slice(0, 100);
 
     eventsContainer.innerHTML = "";
 
