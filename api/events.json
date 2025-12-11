@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Tech Innovation Summit",
+    "description": "A showcase of AI, robotics, and emerging technology at USIU.",
+    "location": "Main Auditorium",
+    "date": "2025-02-15",
+    "time": "14:00",
+    "category": "Academic"
+  },
+  {
+    "id": 2,
+    "title": "International Cultural Festival",
+    "description": "Experience diverse food, music, and traditions from around the world.",
+    "location": "Campus Grounds",
+    "date": "2025-03-10",
+    "time": "18:00",
+    "category": "Social"
+  },
+  {
+    "id": 3,
+    "title": "Career Fair 2025",
+    "description": "Meet potential employers, explore internships, and network with industry partners.",
+    "location": "Library Grounds",
+    "date": "2025-04-05",
+    "time": "09:00",
+    "category": "Career"
+  },
+  {
+    "id": 4,
+    "title": "Mental Health Awareness Talk",
+    "description": "A wellness session on stress management and student mental health.",
+    "location": "Lecture Hall 7",
+    "date": "2025-02-25",
+    "time": "11:00",
+    "category": "Wellness"
+  },
+  {
+    "id": 5,
+    "title": "USIU Sports Day",
+    "description": "Join football, basketball, athletics and more. Open to all students.",
+    "location": "Sports Grounds",
+    "date": "2025-05-01",
+    "time": "08:30",
+    "category": "Sports"
+  }
+]
